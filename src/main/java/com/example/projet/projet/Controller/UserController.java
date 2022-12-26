@@ -24,7 +24,7 @@ import com.example.projet.projet.Service.technicienService;
 
 @Controller
 public class UserController {
-
+    @Autowired
     private UserService userService;
     @Autowired
     private CategorieService categorieService;
